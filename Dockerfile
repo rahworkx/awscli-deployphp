@@ -3,8 +3,8 @@ FROM ubuntu:18.04
 MAINTAINER rahworkx
 
 ## Update Ubuntu Software repository
-RUN apt-get update -y
-RUN apt-get install -y software-properties-common
+RUN apt-get update && \
+    apt-get install -y software-properties-common
 
 ## Install Base Tools
 RUN apt-get install -y curl \
