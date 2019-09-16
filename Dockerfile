@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER RHaynes rhaynes@materialbank.com
+MAINTAINER rahworkx
 
 ## Update Ubuntu Software repository
 RUN apt-get update -y
